@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2C_216230123</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_content_1">TAB CONTENT 1</string>
+    <string name="tab_content_2">TAB CONTENT 2</string>
+    <string name="tab_content_3">TAB CONTENT 3</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2c_216230123.Main6Activity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/view1"
+            android:background="@drawable/ka1"
+            android:text="사진1" />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/view2"
+            android:background="@drawable/ka2"
+            android:text="사진2" />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/view3"
+            android:background="@drawable/ka3"
+            android:text="사진3" />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
