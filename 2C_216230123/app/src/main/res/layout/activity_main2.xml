@@ -154,4 +154,10 @@
         app:layout_constraintVertical_bias="0.95"
         app:layout_constraintLeft_toLeftOf="parent" />
 
+    <fragment
+        android:id="@+id/frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_blank" />
+
 </android.support.constraint.ConstraintLayout>

@@ -74,7 +74,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintVertical_bias="0.342"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/Address"
@@ -138,6 +139,7 @@
         app:layout_constraintVertical_bias="0.82"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+
     <Button
         android:id="@+id/home"
         android:layout_width="wrap_content"
@@ -153,5 +155,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
         app:layout_constraintLeft_toLeftOf="parent" />
+
+    <fragment
+        android:id="@+id/frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_blank" />
 
 </android.support.constraint.ConstraintLayout>
